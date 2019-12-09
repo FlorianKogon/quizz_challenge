@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'question.dart';
+import 'models/question.dart';
 
 class Quizz extends StatefulWidget {
   String title;

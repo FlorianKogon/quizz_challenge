@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:quizz_challenge/quizz.dart';
 import 'package:quizz_challenge/widgets/custom_text.dart';
+import 'package:quizz_challenge/widgets/page_quizz.dart';
 
 class Body extends StatefulWidget {
   @override
@@ -41,7 +41,7 @@ class _BodyState extends State<Body> {
 
   void toNewPage() {
     Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) {
-      return Quizz('Le quizz commence');
+      return PageQuizz();
     }));
   }
 }
