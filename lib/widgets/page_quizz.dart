@@ -120,6 +120,7 @@ class _PageQuizzState extends State<PageQuizz> {
               Navigator.pop(context);
               nextQuestion();
             },
+              color: Colors.blue,
               child: CustomText("Question suivante", factor: 1.25,
               ),
             ),
